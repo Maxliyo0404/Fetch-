@@ -10,7 +10,7 @@ function  render (users){
     const cards = users.map(el => `
        <div class="card">
           <h2>${el.name}</h2>
-          <p>${el.foydalanuvchi nomi}</p>
+          <p>${el.city}</p>
           <a href="#">${el.email}</a>
     </div> 
         `).join("");
