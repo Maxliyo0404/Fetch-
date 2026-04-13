@@ -1,4 +1,5 @@
 let container = document.getElementById("container");
+let cards = document.getElementById("cards");
 fetch('https://jsonplaceholder.typicode.com/users')
 .then(reponse => reponse.json())
 .then(data =>{
