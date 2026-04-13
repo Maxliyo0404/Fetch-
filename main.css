@@ -48,6 +48,6 @@ body{
     padding: 10px 20px;
     margin-top: 10px;
     &:hover{
-        color: #e50914;
+        color:rgb(241, 157, 241);
     }
 }
