@@ -11,7 +11,7 @@ function  render (users){
        <div class="card">
            <img class="rasm"  src="https://picsum.photos/200/300?random=id${el.id} " alt="rasm">
           <h2>${el.name}</h2>
-          <p>${el.telefon }</p>
+          <p>${el.username }</p>
           <a href="#">${el.email}</a>
     </div> 
         `).join("");
