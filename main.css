@@ -2,7 +2,7 @@ body{
     background: fuchsia;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 50px auto 0;
     border-radius: 30px;
     background:rgb(241, 157, 241);
@@ -24,7 +24,7 @@ body{
     box-shadow: 0px 10px 25px ghostwhite;
     &:hover{
         transform: scale(1.03);
-        border: 2px solid #e50914 ;
+        border: 2px solid fuchsia;
     }
 
 }
