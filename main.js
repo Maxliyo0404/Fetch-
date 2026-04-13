@@ -9,9 +9,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
 function  render (users){
     const cards = users.map(el => `
        <div class="card">
-          <h2>${el.id}</h2>
-          <p>${el.title}</p>
-          <a href="#">${el.body}</a>
+          <h2>${el.name}</h2>
+          <p>${el.foydalanuvchi nomi}</p>
+          <a href="#">${el.email}</a>
     </div> 
         `).join("");
         container.innerHTML = cards;
