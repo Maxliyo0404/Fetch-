@@ -1,7 +1,10 @@
+body{
+    background: fuchsia;
+}
 .container{
     max-width: 1000px;
     margin: 50px auto 0;
-    background:fuchsia;
+    background:rgb(241, 157, 241);
     border-radius: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
