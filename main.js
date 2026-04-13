@@ -6,4 +6,6 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 })
 .catch(error("Xatolik kelib chiqdi:", error));
 
-function 
+function  render (users){
+    const cards = u
+}
