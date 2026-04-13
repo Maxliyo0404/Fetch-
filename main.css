@@ -28,3 +28,13 @@ body{
     }
 
 }
+.rasm{
+    width: 80%;
+    max-height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    &:hover{
+        transform: scale(0.9);
+    }
+}
