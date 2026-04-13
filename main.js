@@ -7,5 +7,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 .catch(error("Xatolik kelib chiqdi:", error));
 
 function  render (users){
-    const cards = u
+    const cards = users.map(el => `
+        
+        `)
 }
