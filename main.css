@@ -45,7 +45,8 @@ body{
     color: white;
     background: blue;
     border-radius: 12px;
-    padding: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
     &:hover{
         color: #e50914;
     }
