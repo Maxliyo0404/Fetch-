@@ -9,7 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 function  render (users){
     const cards = users.map(el => `
        <div class="card">
-           <img class="rasm"  src="https://picsum.photos/200/300?random=${item.id} " alt="rasm">
+           <img class="rasm"  src="https://picsum.photos/200/300?random=id${el.id} " alt="rasm">
           <h2>${el.name}</h2>
           <p>${el.city}</p>
           <a href="#">${el.email}</a>
