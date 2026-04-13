@@ -13,5 +13,6 @@ function  render (users){
           <p>${el.title}</p>
           <a href="#">${el.body}</a>
     </div> 
-        `)
+        `).join("");
+        container.innerHTML = cards;
 }
